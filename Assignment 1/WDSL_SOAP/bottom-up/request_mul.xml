@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:impl="http://impl.service.ws.neeraj.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <impl:mul>
+         <value1>4.5</value1>
+	 <value2>4.5</value2>
+      </impl:mul>
+   </soapenv:Body>
+</soapenv:Envelope>

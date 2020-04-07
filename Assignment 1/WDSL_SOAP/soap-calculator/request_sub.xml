@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://www.neeraj.com/springsoap/gen">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getCalcSubRequest>
+            <gs:value1>10</gs:value1>
+	    <gs:value2>5</gs:value2>
+        </gs:getCalcSubRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
